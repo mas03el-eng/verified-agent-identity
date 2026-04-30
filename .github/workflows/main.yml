@@ -6,11 +6,11 @@ on:
       agent_name:
         description: 'Agent Name'
         required: true
-        default: 'gm_sinyoes'
+        default: 'gm_mas03el'
       agent_description:
         description: 'Agent Description'
         required: true
-        default: 'gm_sinyoes AI Agent'
+        default: 'gm_mas03el AI Agent'
 
 jobs:
   verify:
@@ -36,4 +36,4 @@ jobs:
       - name: Step 2 - Link Human to Agent
         run: |
           node scripts/manualLinkHumanToAgent.js \
-          --challenge "{\"name\":"gm_sinyoes"${{ github.event.inputs.agent_name }}\", \"description\":"gm_sinyoes" \"${{ github.event.inputs.agent_description }}\"}"
+          --challenge "{\"name\":"gm_mas03e"${{ github.event.inputs.agent_name }}\", \"description\":"gm_mas03el" \"${{ github.event.inputs.agent_description }}\"}"
