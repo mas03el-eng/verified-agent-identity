@@ -6,11 +6,11 @@ on:
       agent_name:
         description: 'Agent Name'
         required: true
-        default: 'gm_sinyoes03'
+        default: 'gm_sinyoes'
       agent_description:
         description: 'Agent Description'
         required: true
-        default: 'gm_sinyoes03 AI Agent'
+        default: 'gm_sinyoes AI Agent'
 
 jobs:
   verify:
